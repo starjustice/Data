@@ -1,0 +1,11 @@
+.typebar
+{
+  display:grid;
+  grid-template: 100% 100%;
+  grid-gap: 5px;
+}
+
+.paket
+{
+  background-color: blue
+}

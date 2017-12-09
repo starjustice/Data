@@ -1,0 +1,191 @@
+.navbar{
+background: transparent;
+margin-top: 20px;
+box-shadow: 0 10px 20px rgba(0,0,0,.5);
+transition: 2s;
+}
+
+ul{
+  list-style-type: georgian;
+  margin: 0;
+  padding: 5;
+  overflow: hidden;
+  background: darkgreen;
+  outline: none;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:first-child{
+    border-right: none;
+    margin-right:40px;
+    margin-top:0px;
+    background-color: yellow;
+}
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 30;
+    font-family: monospace;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: default;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+#logout
+{
+  float: right;
+}
+
+/*#firstimage{
+  background-color: yellow
+}*/
+.btn-group .button {
+    background-color:darkgreen;
+    border: none;
+    color: white;
+    padding: 23px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+
+.button .logout span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button .logout span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button .logout:hover span {
+  padding-right: 25px;
+}
+
+.button .logout:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.logo /*image in box*/
+{
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 5px;
+  max-width: 60px;
+  max-height: 80px;
+}
+
+.contain
+{
+  margin-top: 50px;
+}
+
+.boxset{
+
+}
+
+.typebar
+{
+    background-color: yellow;
+    box-shadow: 0 10px 20px rgba(0,0,0,.5);
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+}
+
+
+.btn-group2 .button-type
+{
+  background-color: blue;
+  /*margin: auto;*/
+  margin-top: 20px;
+  margin-bottom:20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  font-size: 20;
+  display: inline-block;
+  display: block;
+  cursor: pointer;
+  width: 150px;
+}
+
+.btn-group2 .button-type:hover {
+    background-color: yellow;
+}
+
+.donebox
+{
+  background: black;
+  margin-top: 150%;
+}
+
+.done{
+  margin-left: 25%;
+}
+
+.showmenu{
+  border: 2px solid black;
+  overflow: scroll;
+  height:100%;
+}
+
+.menu{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.actionatt
+{
+  margin-left: 95px;
+  margin-right: auto
+}
+
+.minus
+{
+  border: none;
+  background:transparent;
+  cursor: pointer;
+}
+
+.add
+{
+  border:none;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+.page-footer{
+  background-color: skyblue;
+}

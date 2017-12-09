@@ -1,0 +1,4 @@
+Untuk projek restauran ini belum selesai dikerjakan.
+
+Keterangan 
+Sistem ini dibuat untuk sistem pemesanan secara digital dan pengirimkan data antar pegawai secara digital.
